@@ -1,0 +1,29 @@
+/*if we want to remove the sapce on the UI from nav bar we can mention margin as a zero*/
+body,h2{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 60px;
+    justify-content: space-between;/*adjesting the content*/
+}
+.title {
+    width: 40%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    width: 60%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;/*here we have to abserve the space of ellements in nav bar*/
+}
